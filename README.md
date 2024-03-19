@@ -26,7 +26,7 @@ Execute Django admin and create details for 10 books
 
 ```
 models.py
-class Book(models.Model):
+class Books(models.Model):
   Book_id=models.IntegerField(primary_key=True);
   Book_author=models.CharField(max_length=20);
   Book_name=models.CharField(max_length=50);
