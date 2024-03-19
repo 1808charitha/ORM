@@ -37,8 +37,8 @@ class BookAdmin(admin.ModelAdmin):
 
 admin.py
 from django.contrib import admin
-from .models import Book,BookAdmin
-admin.site.register(Book,BookAdmin)
+from .models import Books,BooksAdmin
+admin.site.register(Books,BooksAdmin)
 ```
 
 
